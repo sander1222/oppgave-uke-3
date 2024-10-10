@@ -1,0 +1,46 @@
+.body,
+html {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle at center, #7846d6, #dc36bb);
+}
+.login-area {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: rgb(91, 91, 91);
+  color: white;
+}
+
+.loginbutton {
+  margin: 10px;
+}
+
+.nybrukerknapp {
+  margin: 10px;
+}
+
+.nybrukerområde {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: rgb(91, 91, 91);
+  color: white;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
